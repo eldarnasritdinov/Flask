@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Exam</title>
+</head>
+<body>
+    <header id="box0">
+        <p id="changeText">Firm Architecture and Design</p>
+        <h1>ARCHITECTURE AND <br> CONSTRUCTIONS</h1>
+        <button id="readmore" onclick="signUp()">SIGN UP</button>
+    </header>
+    <div id="flexWrapper">
+        <div id="box1">
+            <div class="square">
+                <div class="icon1"></div>
+                <h3>Residential Design</h3>
+                <p>This Brooklyn office works at the intersection of architecture, urbanism, and art ... and really likes tautology of its name.</p>
+                <a href="#">READ MORE</a>
+            </div>
+            <div class="square">
+                <div class="icon1"></div>
+                <h3>Residential Design</h3>
+                <p>This Brooklyn office works at the intersection of architecture, urbanism, and art ... and really likes tautology of its name.</p>
+                <a href="#">READ MORE</a>
+            </div>
+            <div class="square">
+                <div class="icon1"></div>
+                <h3>Residential Design</h3>
+                <p>This Brooklyn office works at the intersection of architecture, urbanism, and art ... and really likes tautology of its name.</p>
+                <a href="#">READ MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="box2">
+        <div id="gridWrap">
+            <div id="about">
+                <h2>ABOUT US</h2>
+                <div class="elements">
+                    <div class="icon1"></div>
+                    <div class="text">
+                        <h3>Quality</h3>
+                        <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                    </div>
+                </div>
+                <div class="elements">
+                    <div class="icon1"></div>
+                    <div class="text">
+                        <h3>Quickness</h3>
+                        <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                    </div>
+                </div>
+                <div class="elements">
+                    <div class="icon1"></div>
+                    <div class="text">
+                        <h3>Result</h3>
+                        <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img" id="img1"></div>
+            <div class="img" id="img2"></div>
+        </div>
+    </div>
+
+    <div id="box3">
+            <div class="gallery" id="img4"></div>
+            <div class="gallery" id="img5"></div>
+            <div class="gallery" id="img6"></div>
+    </div>
+
+    <div id="box4">
+        MAP
+        <iframe id="realMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5849.904157438809!2d74.59840714931485!3d42.85274502955366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb71b20cc36fb%3A0xcd597eeeea8bd1fd!2sInnovatsionnyy%20Kolledzh%20Amerikanskiy%20Universitet%20Tsentral'noy%20Azii!5e0!3m2!1sen!2skg!4v1670763926086!5m2!1sen!2skg" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div id="contact">
+        <div id="wrapContact">
+            <div id="one">
+                <h2>Contact Me</h2>
+                <div id="call">
+                    <h3>Call Us</h3>
+                    <p>(0556)110305</p>
+                </div>
+                <div id="location">
+                    <h3>Location</h3>
+                    <p>TSI AUCA</p>
+                </div>
+                <div id="hours">
+                    <h3>Business Hours</h3>
+                    <p>Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… Closed</p>
+                </div>
+            </div>
+            <div id="two">
+                <div id="twoItems">
+                    <div id="email">
+                        <h3>Email</h3>
+                        <input type="email" placeholder="Enter a valid email address" id="email2" class="short">
+                    </div>
+                    <div id="name">
+                        <h3>Name</h3>
+                        <input type="text" placeholder="Enter your Name" id="name2" class="short">
+                    </div>
+                </div>
+                <div id="adress">
+                    <h3>Address</h3>
+                    <input type="text" placeholder="Enter your Name" id="adress2" class="short">
+                </div>
+                <div id="message">
+                    <h3>Message</h3>
+                    <textarea id="message2" placeholder="Enter your message"></textarea>
+                </div>
+                <button>SUBMIT</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="box5">
+        <div id="wrapBox5">
+            <img src="https://images01.nicepage.com/0a/88/0a886335c92e82ad2f38ac22d1881aab.png"  class="companies"><img src="https://images01.nicepage.com/03/e2/03e2cdd78061309e7843ede5f61880b6.png" class="companies"><img src="https://images01.nicepage.com/9f/48/9f4855349fd0ec022d21b719a4feadb7.png" class="companies"><img src="https://images01.nicepage.com/7f/ac/7fac4c437e617fd0e2263f9bcc5bafdf.png" class="companies"><img src="https://images01.nicepage.com/0d/2b/0d2bc1267ff4884d425cb30b5ef40bbb.png" class="companies">
+        </div>
+    </div>
+
+    <div id="signup" style="display: none;">
+        <img onclick="mainPage()" src="https://call2recycle.s3.amazonaws.com/us-wordpress/20170127140840/goback-button.png" height="200px">
+        <div class="loginBox">
+            <h2>SIGN UP</h2>
+            <div class="inputs">
+                <p>Username</p>
+                <input type="name" id="setUser">
+            </div>
+            <div class="inputs">
+                <p>Email</p>
+                <input type="email" id="gmaill">
+            </div>
+            <div class="inputs">
+                <p>Password</p>
+                <input type="password" id="zpass">
+            </div>
+            <button class="logAndSign" onclick="setUser(document.getElementById('setUser').value), checkValid()">
+                SIGN UP
+            </button>
+            <p class="noacc">already have an account?<a onclick="logIn()" class="abababa"> log in</a></p>
+        </div>
+    </div>
+
+    <div id="login" style="display: none;">
+        <img onclick="mainPage()" src="https://call2recycle.s3.amazonaws.com/us-wordpress/20170127140840/goback-button.png" height="200px">
+        <div class="loginBox">
+            <h2>LOG IN</h2>
+            <div class="inputs">
+                <p>Email</p>
+                <input type="email" id="inputCheck1">
+            </div>
+            <div class="inputs">
+                <p>Password</p>
+                <input type="password" class="inputCheck">
+            </div>
+            <button class="logAndSign" onclick="nonExist()">
+                LOG IN
+            </button>
+            <p class="noacc" id="kgkg">don't have an account?<a onclick="signUp()" class="abababa"> sign up</a></p>
+        </div>
+    </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    gap: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images01.nicepage.com/f3/b6/f3b6a35c3b89307031d75305036d031d.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+header h1, p {
+    text-align: center;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+header p {
+    font-family: 'Noto Serif NP Hmong', serif;
+    font-size: 24px;
+}
+
+#readmore {
+    height: 42px;
+    width: 160px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #ffce3e;
+}
+
+#readmore:hover {
+    color: black;
+}
+
+#flexWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    position:absolute;
+    top: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 340px;
+    width: 1060px;
+    gap: 20px;
+}
+
+.square {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 300px;
+    width: 300px;
+}
+
+.square h3 {
+    font-size: 30px;
+}
+
+.square p {
+    font-size: 14px;
+}
+
+.square a {
+    text-decoration: none;
+    color: #ffce3e;
+}
+
+.icon1 {
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    border: 5px solid #ffce3e;
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    padding-bottom: 50px;
+    height: 500px;
+    width: 100%;
+}
+
+#gridWrap {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 100%;
+    width: 1060px;
+}
+
+#about h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.img {
+    height: 100%;
+    width: 95%;
+}
+
+#img1 {
+    background-image: url('https://i.etsystatic.com/7866645/r/il/f04467/2318690905/il_570xN.2318690905_r9bj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#img2{
+    background-image: url('https://media.idownloadblog.com/wp-content/uploads/2021/08/achitecture-wallpaper-iPhone-idownloadblog-pierre-chatel-innocenti-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.elements {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 130px;
+    width: 90%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text h3, p {
+    margin: 0;
+    text-align: left;
+}
+
+#box3 {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+#img4 {
+    background-image: url('https://papers.co/wallpaper/papers.co-vr27-building-architecture-wood-view-pattern-35-3840x2160-4k-wallpaper.jpg');
+}
+
+#img5 {
+    background-image: url('https://wallpaperaccess.com/full/153244.jpg');
+}
+
+#img6 {
+    background-image: url('https://images.unsplash.com/photo-1531591022136-eb8b0da1e6d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG9yZ2FuaWMlMjBhcmNoaXRlY3R1cmV8ZW58MHx8MHx8&w=1000&q=80');
+}
+
+#box4 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 550px;
+    width: 100%;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+}
+
+#wrapContact {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+    width: 800px;
+}
+#one {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+}
+
+#one p {
+    text-align: left;
+}
+
+#one h2 {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#one h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#two {
+    height: 100%;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#twoItems {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#email {
+    width: 45%;
+    display: inline-block;
+}
+
+#email2 {
+    width: 100%;
+    display: inline-block;
+}
+
+#name {
+    width: 45%;
+    display: inline-block;
+}
+
+#name2 {
+    width: 100%;
+    display: inline-block;
+}
+
+#adress {
+    width: 100%;
+}
+
+#adress2 {
+    width: 100%;
+}
+
+#message {
+    height: 100px;
+    width: 100%;
+}
+
+#message2 {
+    height: 100%;
+    width: 100%;
+}
+
+.short {
+    height: 30px;
+}
+
+#two button {
+    background-color: #ffce3e;
+    border: 1px solid #ffce3e;
+    color: black;
+    margin-top:80px;
+    width: 102%;
+    height: 40px;
+}
+
+#two button:hover {
+    background-color: white;
+    border-color: white;
+}
+
+#box5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffce3e;
+    height: 200px;
+    width: 100%;
+}
+
+.companies {
+    filter: brightness(0%);
+    height: 80px;
+}
+
+#wrapBox5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    height: 80px;
+    width: 900px;
+}
+
+#signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+.loginBox {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #ffce3e;
+    height: 350px;
+    width: 400px;
+}
+
+.loginBox h2 {
+    margin-top: 0;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.inputs input {
+    border: 1px solid grey;
+    background-color: #ffce3e;
+    border-radius: 5px;
+    height: 30px;
+    width: 97%;
+}
+
+.inputs p {
+    text-align: left;
+}
+
+.logAndSign {
+    border: 1px solid grey;
+    background-color: gray;
+    color: #ffce3e;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+.noacc {
+    margin-top: 30px;
+    float: right;
+}
+
+#popup {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+#login {
+    background-color: gray;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.abababa {
+    color: blue;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1110px) {
+    #box1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 710px;
+        width: 700px;
+        gap: 20px;
+    }
+
+    #box2 {
+        margin-top: 800px;
+    }
+
+    #box5 {
+        height: 500px;
+        width: 100%;
+    }
+
+    #wrapBox5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        height: 400px;
+        width: 400px;
+    }
+
+    #gridWrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100%;
+        width: 1060px;
+    }
+
+    #img2 {
+        display: none;
+    }
+
+    #about {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 737px) {
+
+    #box1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 1070px;
+        width: 340px;
+        gap: 20px;
+    }
+
+    #box2 {
+        margin-top: 1300px;
+    }
+
+    #box3 {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #img6 {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 571px) {
+    header h1 {
+        font-size: 10vw;
+    }
+
+    header p {
+        font-size: 5vw;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #gridWrap {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        width: 400px;
+    }
+
+    #box3 {
+        grid-template-columns: 1fr;
+    }
+
+    #img4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    #wrapBox5 {
+        width: 78%;
+        height: 320px;
+    }
+
+    .companies {
+        height: 16vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 833px) {
+
+    #wrap2 {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 600px;
+    gap: 500px;
+}
+
+    #contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        width: 100%;
+    }
+    
+    #wrapContact {
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 80%;
+        width: 600px;
+    }
+    
+    #one {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+    }
+
+    #gridClients {
+        height: 400px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #wrapClients {
+        width: 600px;
+    }
+    .clients {
+        width: 300px;
+    }
+
+    #contentBox2 {
+        grid-template-columns: 1fr;
+
+    }
+
+    .content-left {
+        width: 600px;
+    }
+
+    .content-right {
+        width: 600px;
+    }
+
+    #contentBox2 {
+        width: 600px;
+    }
+
+    #contentBox3 {
+        width: 600px;
+    }
+
+    .content-left {
+        width: 300px;
+    }
+    
+    .content-right {
+        width: 300px;
+    }
+
+    #contentBox1 {
+        width: 600px;
+    }
+
+    #contentBox1 p {
+        font-size: 34px;
+    }
+
+    .container1 {
+        width: 600px;
+    }
+
+
+    .box {
+        width: 295px;
+    }
+
+    .miniBox {
+        width: 275px;
+    }
+
+}
+
+@media only screen and (max-width: 707px) {
+    #login img{
+        height: 100px;
+    }
+
+    #signup img {
+        height: 100px;
+    }
+
+    .loginBox {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 543px) {
+    #login img{
+        height: 100px;
+    }
+
+    .loginBox {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 506px) {
+    #login img{
+        height: 100px;
+    }
+
+    .loginBox {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    #login img{
+        height: 100px;
+    }
+
+    .loginBox {
+        width: 150px;
+    }
+}
+    </style>
+
+    <script>
+        function signUp() {
+    document.getElementById('signup').style.display = 'flex'
+
+    document.getElementById('box0').style.display = 'none'
+    document.getElementById('box2').style.display = 'none'
+    document.getElementById('box3').style.display = 'none'
+    document.getElementById('box4').style.display = 'none'
+    document.getElementById('box5').style.display = 'none'
+    document.getElementById('contact').style.display = 'none'
+    document.getElementById('flexWrapper').style.display = 'none'
+    document.getElementById('login').style.display = 'none'
+}
+
+function logIn() {
+    document.getElementById('login').style.display = 'flex'
+
+    document.getElementById('box0').style.display = 'none'
+    document.getElementById('box2').style.display = 'none'
+    document.getElementById('box3').style.display = 'none'
+    document.getElementById('box4').style.display = 'none'
+    document.getElementById('box5').style.display = 'none'
+    document.getElementById('contact').style.display = 'none'
+    document.getElementById('flexWrapper').style.display = 'none'
+    document.getElementById('signup').style.display = 'none'
+}
+
+function mainPage() {
+    document.getElementById('login').style.display = 'none'
+    document.getElementById('signup').style.display = 'none'
+
+    document.getElementById('box0').style.display = 'flex'
+    document.getElementById('box2').style.display = 'flex'
+    document.getElementById('box3').style.display = 'grid'
+    document.getElementById('box4').style.display = 'flex'
+    document.getElementById('box5').style.display = 'flex'
+    document.getElementById('contact').style.display = 'flex'
+    document.getElementById('flexWrapper').style.display = 'flex'
+}
+
+function setUser(username) {
+    if (checkValid()[0]) {
+        mainPage()
+        document.getElementById('changeText').textContent = 'Welcome ' + checkValid()
+        document.getElementById('readmore').textContent = "SUCCESSFULY LOGGED IN"
+        document.getElementById('readmore').style.fontSize = '10px'
+    }
+}
+
+function checkValid() {
+    x = document.getElementById('setUser').value
+    y = document.getElementById('gmaill').value
+    z = document.getElementById('zpass').value
+    console.log(y)
+    if (x == "") {
+        document.getElementById('setUser').placeholder = "Fill out. Min length 4. Max length 10"
+        if (y == "") {
+            document.getElementById('gmaill').placeholder = "Enter gmail"
+            if (z == "") {
+                document.getElementById('zpass').placeholder = "Enter password"
+            }
+        }
+    }
+    else {
+        if (x.length > 3) {
+            if (y != "") {
+                return true, x
+            }
+        }
+        else {
+            document.getElementById('setUser').value = ""
+        }
+    }
+}
+    </script>
+</body>
+</html>
